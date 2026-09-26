@@ -8,11 +8,11 @@ _____
 <!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
 
 **Entradas:**
-1. _____
+1. _Pedir 5 numeros enteros____
 
 **Salidas:**
-1. _____
-2. _____
+1. ____Mostrar cuales pares encontro_
+2. ___Mostrar cuntos pares encotro __
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
@@ -24,7 +24,7 @@ _____
 _____
 
 **¿El 0 y los negativos son pares? ¿Por qué?**
-_____
+___El 0 lo pudiera marcar como impar, los numeros negativos __
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
 _____
@@ -33,18 +33,18 @@ _____
 
 | Caso | Números | Pares guardados | Posición de cada par |
 |---|---|---|---|
-| 1 | 3, 8, 5, 2, 7 | _____ | _____ |
-| 2 | _____ | _____ | _____ |
-| 3 | _____ | _____ | _____ |
+| 1 | 3, 8, 5, 2, 7 | ___8,2 __ | __0,1___ |
+| 2 | 13,12,11,10,9 | __12,10___ | __0,1___ |
+| 3 | __8,7,6,5,4,3___ | ___8,6,4 __ | __0,1,2___ |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las dos preguntas. -->
 
-**¿Probé mi receta a mano con un caso?** Sí / No
-**¿Tuve que corregirla?** _____
+**¿Probé mi receta a mano con un caso?** Sí 
+**¿Tuve que corregirla?** __Si, ya que no tenia mucho sentido___
 
 ## 6. Cómo compilar y ejecutar (Fase 3)
-
+Para compilar es  g++ main.cpp -o main y para correrlo  .\main.exe
 ```bash
 g++ -Wall -Wextra -std=c++17 main.cpp -o numeros_pares
 ./numeros_pares
@@ -60,7 +60,7 @@ _____
 ## 8. Experimentos (Fase 3)
 
 **Experimento A: ¿qué apareció al imprimir las 5 posiciones del arreglo? ¿Por qué?**
-_____
+___Nos da los resultados de las que son numeros pares __
 
 **Experimento B: ¿qué pasó al usar la variable del ciclo como posición del arreglo? ¿Por qué?**
 _____
@@ -82,7 +82,7 @@ _____
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | _____ | _____ | _____ |
+| 1 | __Anote mal___ | _Me cambie ____ | __Si___ |
 | 2 | _____ | _____ | _____ |
 
 **Reto elegido (opcional):** _____
@@ -96,16 +96,16 @@ _____
 ## 12. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+___Aprendi a desarollar un poco mas los codigos __
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+__Nada___
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+_Yo creo que todo pero me apoye del programa pasado como funcionaba ____
 
 **¿Qué pregunta me quedó sin responder?**
-_____
+___Si no me equivoco ninguna__
 
 **¿Por qué no puedo usar la variable del ciclo para guardar en el arreglo?**
 _____
